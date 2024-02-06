@@ -14,7 +14,9 @@
          *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;}
+    font-family: sans-serif;
+    scroll-behavior:smooth;}
+
         body{
             background-color: rgb(30 41 59);
             animation: background-color 15s linear infinite;
@@ -861,10 +863,10 @@ nav a:hover{
     <nav>
         <ul>
             <img class="nav-image" src="FB_IMG_1643999833235.jpg" width="13%">
-            <li class="none"><a href="#">HOME</a></li>
-            <li class="none"><a href="#">ABOUT</a></li>
-            <li class="none"><a href="#">SERVICES</a></li>
-            <li class="none"><a href="#">INFO</a></li>
+            <li class="none"><a href="https://mubashiryasir179.github.io/Pure-Coding.github.io/">HOME</a></li>
+            <li class="none"><a href="#last-layout">ABOUT</a></li>
+            <li class="none"><a href="#parent-list">SERVICES</a></li>
+            <li class="none"><a href="#second-image">INFO</a></li>
             <li onclick=showSidebar()><a href="#" style="padding:15px 10px 2px 10px;"><svg
                         xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" width="25" fill="#ffff">
                         <path d=" M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
@@ -878,10 +880,10 @@ nav a:hover{
                             d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
                     </svg></a></li>
             <img class="nav-image" src="FB_IMG_1643999833235.jpg" width="35%">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">INFO</a></li>
+            <li><a href="https://mubashiryasir179.github.io/Pure-Coding.github.io/">HOME</a></li>
+            <li><a href="#last-layout">ABOUT</a></li>
+            <li><a href="#parent-list">SERVICES</a></li>
+            <li><a href="#second-image">INFO</a></li>
         </ul>
         <a href="http://" target="blank" rel="noopener noreferrer"></a>
     </nav>
@@ -912,9 +914,9 @@ nav a:hover{
         <img class="image" src="IMG_7149.JPG" alt="" width="36%">
     </div>
     <div class="anchors">
-        <a href="#">Home</a> |
-        <a href="#">About</a> |
-        <a href="#">Services</a>
+        <a href="https://mubashiryasir179.github.io/Pure-Coding.github.io/">Home</a> |
+        <a href="#last-layout">About</a> |
+        <a href="parent-list#">Services</a>
     </div>
     <br>
 
@@ -926,7 +928,7 @@ nav a:hover{
     <br>
     <br>
     <br>
-    <div class="another-image">
+    <div class="another-image" id="second-image">
         <br>
         <br>
         <br>
@@ -955,7 +957,7 @@ nav a:hover{
     <br>
     <h2 class="Technical-head">TECHNICAL SKILLS</h2>
     <br><br><br><br>
-    <ul class="list-parent">
+    <ul class="list-parent" id="parent-list">
         <li class="list-child-html"> HTML 5 <br>
             <box-icon type='logo' class="icon-size" color='#C95d2e' name='html5'></box-icon>
         </li>
